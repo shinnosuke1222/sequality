@@ -5,8 +5,8 @@ public class Calculate {
     return x + y;
   }
 
-  public int average(int x, int y) {
-    return (x + y) / 2;
+  public double average(int x, int y) {
+    return (x + y) / 2.0;
   }
 
   public int sumRange(int start, int end) {
@@ -17,8 +17,8 @@ public class Calculate {
     return sum;
   }
 
-  public int averageRange(int start, int end) {
-    return sumRange(start, end) / (int) (end - start + 1);
+  public double averageRange(int start, int end) {
+    return sumRange(start, end) / (double) (end - start + 1);
   }
 
   public int sumOddRange(int start, int end) {
