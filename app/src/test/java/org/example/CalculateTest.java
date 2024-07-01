@@ -44,6 +44,6 @@ public class CalculateTest {
   public void testSumEvenRange() {
     Calculate calc = new Calculate();
     assertEquals(30, calc.sumEvenRange(1, 10));
-    assertEquals(25, calc.sumEvenRange(1, 10));
+    assertEquals(30, calc.sumEvenRange(1, 10));
   }
 }
