@@ -10,5 +10,10 @@ public class App {
 
   public static void main(String[] args) {
     System.out.println(new App().getGreeting());
+    Calculate calc = new Calculate();
+    System.out.println("Sum of 2 and 3 is " + calc.sum(2, 3) + ". Average is " + calc.average(2, 3) + ".");
+    System.out.println("Sum of 1 to 10 is " + calc.sumRange(1, 10) + ". Average is " + calc.averageRange(1, 10) + ".");
+    System.out.println(
+        "Sum of odd of 1 to 10 is " + calc.sumOddRange(1, 10) + ". Sum of even is " + calc.sumEvenRange(1, 10) + ".");
   }
 }
