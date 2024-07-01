@@ -14,8 +14,8 @@ public class CalculateTest {
   @Test
   public void testAverage() {
     Calculate calc = new Calculate();
-    double expected = 3.0;
-    assertEquals(expected, calc.average(2, 4), 0.01);
+    double expected = 2.5;
+    assertEquals(expected, calc.average(2, 3), 0.01);
   }
 
   @Test
@@ -27,7 +27,7 @@ public class CalculateTest {
   @Test
   public void testAverageRange() {
     Calculate calc = new Calculate();
-    double expected = 3.0;
+    double expected = 5.5;
     assertEquals(expected, calc.averageRange(1, 10), 0.01);
   }
 
